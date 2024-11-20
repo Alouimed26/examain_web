@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscriptions ou de reclamations</title>
+</head>
+<body>
+    <ul style="list-style-type:square;">
+        <li>
+            <a href="accueil.html">Missions Militaires</a> 
+        </li>
+        <li>
+            <a href="inscription.html">Inscriptions / Reclamations</a>
+        </li>
+        <li>
+           <a href="equipement militaire.html"> Equippements Militaires</a>
+        </li>
+    </ul>
+    <h1>Formulaire d'inscriptions ou de reclamations</h1>
+    <form>
+        <!-- <fieldset><legend>Informations Personnels</legend> -->
+    <table>
+        <tr>
+            <td>
+                <label for="nom">Nom : </label>
+            </td>
+            <td>
+                <input type="text" name="nom" id="nom">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="prenom">Prenom : </label>
+            </td>
+            <td>
+                <input type="text" name="prenom" id="prenom">
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td><label for="daten">Grade : </label></td>
+            <td><select name="grade" id="grade" >
+                <option>Grade1</option>
+                <option>Grade2</option>
+                <option>Grade3</option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="email">Email : </label>
+            </td>
+            <td>
+                <input type="email" name="email" id="email">
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="message">Message : </label>
+            </td>
+            <td>
+                <textarea cols="40" rows ="5" > </textarea> 
+            </td>
+        </tr>
+        
+ <tr>
+            <td>
+                <input type="file" id="Choisir un fichier" name="fichier" accept=".jpg, .jpeg, .png">
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Envoyer"></td>
+           
+        </tr>
+    </table>
+<!-- </fieldset> -->
+</form>
+</body>
+</html>
